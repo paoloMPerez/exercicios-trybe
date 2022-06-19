@@ -33,3 +33,8 @@ div:nth-of-type(4) > h3{
 div:nth-of-type(5) > h3{
     color: solid black;
 }
+
+div:nth-of-type(3) {
+    height: 80px;
+  }
+  
