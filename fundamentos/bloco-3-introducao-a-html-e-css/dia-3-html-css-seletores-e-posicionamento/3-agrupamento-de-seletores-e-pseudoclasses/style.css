@@ -1,6 +1,13 @@
 h1, p {
     text-align: center;
   }
+
 ol:hover, ul:hover{
     background-color: red;
 }
+
+li:active{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
