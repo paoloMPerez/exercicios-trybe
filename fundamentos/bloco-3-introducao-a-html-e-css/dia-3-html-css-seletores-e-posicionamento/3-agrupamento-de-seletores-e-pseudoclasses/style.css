@@ -11,3 +11,6 @@ li:active{
     font-size: 40px;
 }
 
+li{
+    list-style: none;
+}
