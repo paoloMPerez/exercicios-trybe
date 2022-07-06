@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Concurso TrybeTrip</h1>
+    <form action="">
+      <fieldset>
+        <label for="nome-completo">Nome Completo:</label>
+        <input
+          type="text"
+          name="nome-completo"
+          id="nome-completo"
+          placeholder="Digite seu nome competo"
+          minlength="10"
+          maxlength="40"
+          required
+        />
+        <br />
+        <label for="email">email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Digite seu email"
+          minlength="10"
+          maxlength="50"
+          required
+        />
+        <br />
+        <input
+          type="radio"
+          name="destinos"
+          class="destinos"
+          id="destino-1"
+          value="cidade"
+          required
+        />
+        <label for="destino-2">Cidade</label>
+        <input
+          type="radio"
+          name="destinos"
+          class="destinos"
+          id="destino-2"
+          value="Campo"
+          required
+        />
+        <label for="destino-2">Campo</label>
+        <input
+          type="radio"
+          name="destinos"
+          class="destinos"
+          id="destino-3"
+          value="Praia"
+          required
+        />
+        <label for="destino-3">Praia</label>
+        <input
+          type="radio"
+          name="destinos"
+          class="destinos"
+          id="destino-4"
+          value="Montanha"
+          required
+        />
+        <label for="destino-4">Montanha</label>
+        <br />
+        <label for="pq"
+          >Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso
+          TrybeTrip?
+        </label>
+        <br />
+        <textarea
+          name="pq"
+          id="pq"
+          cols="65"
+          rows="10"
+          maxlength="500"
+          placeholder="Digite sua resposta aqui!"
+        ></textarea>
+        <p>Limite de 500 caracteres.</p>
+        <label for="data">Qual a melhor data para realizar sua viagem?</label>
+        <input type="date" name="data" id="data" required />
+        <br />
+        <label for="promocao"
+          >Gostaria de receber outras incríveis oportunidades oferecidas pela
+          Trybe.
+        </label>
+        <input type="checkbox" name="promocao" id="promocao" />
+        <br />
+        <label for="agreement"
+          >Concordo que imagens de minhas férias poderão ser usadas na
+          divulgação de concursos futuros.</label
+        >
+        <input type="checkbox" name="agreement" id="agreement" required />
+      </fieldset>
+      <br />
+      <button type="submit" id="btn-enviar" disabled>
+        Participar do concurso TrybeTrip
+      </button>
+      <button type="button" id="btn-limpar">Limpar informações</button>
+    </form>
+    <script src="/exercicio-do-dia/script.js"></script>
+  </body>
+</html>
