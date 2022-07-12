@@ -21,24 +21,16 @@ body {
 }
 
 
-article {}
-
 h1 {
   font-size: 1.8em;
   margin: .9em 0 0 0;
   /* ⬆⬆⬆ tarefa 2  */
 }
 
-h2 {}
-
 img {
   max-width: 100%;
   /* ⬆⬆⬆ tarefa 3  */
 }
-
-main {}
-
-section {}
 
 figure {
   margin: 0;
@@ -66,12 +58,14 @@ figcaption {
 }
 
 @media screen and (min-width: 1020px) {
+
   /* ⬆⬆⬆ tarefa 7  */
   body {
     background: rgba(77, 82, 77, 0.2);
     margin: 25px 10%;
     max-width: 1130px;
   }
+
   /* ⬆⬆⬆ tarefa 8  */
   figure {
     width: 30%;
